@@ -3,5 +3,5 @@ all: helloworld.cpp
 clean:
 	rm mybinary helloworld.o -rf
 test:
-	ll
+	ls -l
 	./runmytests.sh
