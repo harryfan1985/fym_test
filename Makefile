@@ -1,6 +1,6 @@
 all : helloworld.cpp
-    g++ helloworld.cpp -o helloworld
+        g++ helloworld.cpp -o helloworld
 clean:
-    rm helloworld helloworld.o -rf
+        rm helloworld helloworld.o -rf
 test:
-    ./helloworld
+        ./helloworld
