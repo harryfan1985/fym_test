@@ -1,6 +1,7 @@
 all: helloworld.cpp
-	g++ helloworld.cpp -o helloworld
+	g++ helloworld.cpp -o mybinary
 clean:
-	rm helloworld helloworld.o -rf
+	rm mybinary helloworld.o -rf
 test:
-	./helloworld
+	ll
+	./runmytests.sh
