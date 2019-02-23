@@ -5,7 +5,6 @@ jobs:
       - image: ubuntu:14.04
     steps:
       - checkout # check out the code in the project directory
-      - run:
-          - apt update && apt -y install make autoconf gcc g++
-          - g++ helloworld.cpp -o mybinary
-          - ls
+      - run: apt update && apt -y install make autoconf gcc g++
+      - run: g++ helloworld.cpp -o mybinary
+      - run: ls
