@@ -8,3 +8,4 @@ jobs:
       - run: apt update && apt -y install make autoconf gcc g++
       - run: g++ helloworld.cpp -o mybinary
       - run: ls
+      - run: ./mybinary
