@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: ubuntu:14.04
+    steps:
+      - checkout # check out the code in the project directory
+      - run:
+          g++ helloworld.cpp -o mybinary
+          ls
